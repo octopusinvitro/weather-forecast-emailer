@@ -2,6 +2,7 @@ __all__ = [
     'constants'
     'email_formatter',
     'email_list_reader',
+    'emailer',
     'forecast'
     'forecast_response',
     'forecast_response_error',
@@ -12,6 +13,7 @@ __all__ = [
 from .constants import *
 from .email_formatter import EmailFormatter
 from .email_list_reader import EmailListReader
+from .emailer import Emailer
 from .forecast import Forecast
 from .forecast_response import ForecastResponse
 from .forecast_response_error import ForecastResponseError
