@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/octopusinvitro/weather-forecast-emailer.svg?branch=master)](https://travis-ci.org/octopusinvitro/weather-forecast-emailer)
+[![build status](https://gitlab.com/octopusinvitro/weather-forecast-emailer/badges/master/build.svg)](https://gitlab.com/octopusinvitro/weather-forecast-emailer/commits/master)
+[![Coverage Status](https://coveralls.io/repos/github/octopusinvitro/weather-forecast-emailer/badge.svg?branch=master)](https://coveralls.io/github/octopusinvitro/weather-forecast-emailer?branch=master)
+
 # Weather Forecast Emailer
 
 This libray gets the current weather for a city from the [Open Weather Map](openweathermap.or) web API and sends it to a list of emails from a specific Google account.
@@ -81,3 +85,9 @@ pip install -r requirements.txt
 python3 -m unittest discover
 ```
 
+
+## Publish
+
+```
+python3 setup.py register sdist upload
+```
