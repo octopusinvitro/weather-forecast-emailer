@@ -6,3 +6,4 @@ MAILHOST = 'smtp.gmail.com'
 TLS_PORT = '587'
 
 OWM_VERSION = '2.5'
+WFE_VERSION = '0.0.1'
