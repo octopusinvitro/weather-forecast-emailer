@@ -1,0 +1,19 @@
+language: python
+python:
+  - "3.3"
+  - "3.4"
+  # PyPy versions
+  # - "pypy"
+  # - "pypy"  # PyPy2 2.5.0
+  # - "pypy3" # Pypy3 2.4.0
+  # - "pypy-5.3.1"
+# command to install dependencies
+install:
+  - pip install -U pip
+  - pip install -r requirements.txt
+  - pip install flake8
+  - pip freeze
+# command to run tests
+script:
+  - python3 -m unittest discover
+  # - flake8 --ignore E221,E501 --exclude .git,__pycache__,tests/fake_response.py .
